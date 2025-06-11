@@ -1,0 +1,117 @@
+body{
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: 1580px;
+    overflow-x: hidden;
+}
+#h1{
+     color:white;
+     padding-top:150px;
+     font-family: "Dancing Script", serif;
+     font-size:70px;
+     cursor: default;
+}
+#h3{
+    color:aqua;
+    position:relative;
+    left:550px;
+    bottom:30px;
+    cursor: default;
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 40px;
+}
+
+li{
+    float:right;
+}
+#ul{
+    list-style-type: none;
+    background-color:gold;
+    overflow: hidden;
+    margin-top: 0px;
+    padding:35px;
+}
+#a{
+    color:white;
+    text-decoration-line: none;
+    padding:39px;
+}
+#one{
+    color:white;
+    float:left;
+    overflow: hidden;
+    list-style-type:none;
+}
+#button{
+    background-color: gold;
+    border: none;
+    width: 140px;
+    font-family:cursive;
+    font-size: 13px;
+    padding:35px;
+}
+#button:hover{background-color: grey;color: red;}
+#dropdown{
+    position:relative;
+    
+}
+#dropdown-content{
+    position:absolute;
+    top:88px;
+    display: none;
+    background-color:darkcyan; 
+    width: 160px;
+    box-shadow: 0px 10px 10px 0px 5px grey; 
+}
+#dropdown-content >#link{
+    text-decoration-line: none;
+    display:block;
+    padding: 10px;
+    color:black;
+}
+#dropdown-content #link:hover{
+    background-color: grey;
+    color:red;
+}
+#dropdown:hover >#dropdown-content{
+    display:block;
+}
+#a:hover{
+    background-color: grey;
+    color:red;
+}
+footer{
+    background-color:black;
+    opacity: 0.8;
+    color:white;
+    margin-top: 60px;
+    padding-bottom:0px;
+}
+.four{
+    position:absolute;
+    top:580px;
+    left:10px;
+}
+.five{
+    position:relative;
+    top:77px;
+    right:140px;
+}
+.six{
+    position:relative;
+    left:180px;
+}
+.wee{
+    position: relative;
+    left:500px;
+    bottom:90px;
+    cursor: default;
+}
+.three{
+    color:white;
+}
+.three:hover{
+    color:red;
+}
